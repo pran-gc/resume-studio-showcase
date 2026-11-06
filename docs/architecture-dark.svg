@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 784 570" width="784" height="570" role="img" aria-label="Your browser reaches the API over HTTP and your AI reaches the MCP server. Both feed one shared core that validates, proposes, reviews, commits and snapshots each edit. The result is stored, rendered, and shown back to you as a preview and PDF.">
+<style>
+text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ecebef; }
+.n rect { fill: #17161a; stroke: #2a282e; }
+.t { font-size: 15px; font-weight: 600; }
+.s { font-size: 12.5px; fill: #a19ea8; }
+.l, .wl { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; fill: #a19ea8; }
+.core { fill: #251b23; stroke: #75415d; }
+.st rect { fill: #17161a; stroke: #75415d; }
+.st .t { fill: #ff6fb5; font-size: 14px; }
+.st .s { font-size: 11.5px; }
+.w { fill: none; stroke: #a19ea8; stroke-width: 1.25; }
+.p, .ah { fill: #a19ea8; }
+</style>
+<defs><marker id="ah-w" viewBox="0 0 8 8" refX="7.5" refY="4" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path class="ah" d="M0 0L8 4L0 8z"/></marker></defs>
+<g class="n"><rect x="36" y="2" width="344" height="84" rx="14"/><text class="l" x="52" y="24">Editor</text><text class="t" x="52" y="46">You, in the browser</text><text class="s" x="52" y="64">Live preview while you edit</text></g>
+<g class="n"><rect x="416" y="2" width="344" height="84" rx="14"/><text class="l" x="432" y="24">AI host</text><text class="t" x="432" y="46">Your AI assistant</text><text class="s" x="432" y="64">Claude Code, Codex, Cursor</text></g>
+<g class="n"><rect x="36" y="132" width="344" height="84" rx="14"/><text class="l" x="52" y="154">Entry point</text><text class="t" x="52" y="176">API</text><text class="s" x="52" y="194">Checks origin and input</text></g>
+<g class="n"><rect x="416" y="132" width="344" height="84" rx="14"/><text class="l" x="432" y="154">Entry point</text><text class="t" x="432" y="176">MCP server</text><text class="s" x="432" y="194">27 tools on the same operations</text></g>
+<rect class="core" x="36" y="276" width="724" height="124" rx="18"/>
+<g class="st"><rect x="57" y="292" width="122" height="66" rx="11"/><text class="t" x="69" y="318">Validate</text><text class="s" x="69" y="338">Shared schemas</text></g>
+<g class="st"><rect x="197" y="292" width="122" height="66" rx="11"/><text class="t" x="209" y="318">Propose</text><text class="s" x="209" y="338">Before and after</text></g>
+<g class="st"><rect x="337" y="292" width="122" height="66" rx="11"/><text class="t" x="349" y="318">Review</text><text class="s" x="349" y="338">You, or the AI</text></g>
+<g class="st"><rect x="477" y="292" width="122" height="66" rx="11"/><text class="t" x="489" y="318">Commit</text><text class="s" x="489" y="338">One transaction</text></g>
+<g class="st"><rect x="617" y="292" width="122" height="66" rx="11"/><text class="t" x="629" y="318">Snapshot</text><text class="s" x="629" y="338">Restorable</text></g>
+<text class="l" x="57" y="384">Shared core</text><text class="t" x="146" y="384">One definition of every edit</text>
+<g class="n"><rect x="36" y="448" width="240" height="94" rx="14"/><text class="l" x="52" y="470">Output</text><text class="t" x="52" y="492">Preview and PDF</text><text class="s" x="52" y="510">The same pages in both</text></g>
+<g class="n"><rect x="316" y="448" width="240" height="94" rx="14"/><text class="l" x="332" y="470">Output</text><text class="t" x="332" y="492">Renderer</text><text class="s" x="332" y="510">One set of templates</text><text class="s" x="332" y="526">and pagination rules</text></g>
+<g class="n"><rect x="596" y="448" width="164" height="94" rx="14"/><text class="l" x="612" y="470">Storage</text><text class="t" x="612" y="492">Structured data</text><text class="s" x="612" y="510">Resumes, versions,</text><text class="s" x="612" y="526">proposals, facts</text></g>
+<path class="w" d="M208 86V132" marker-end="url(#ah-w)"/><circle class="p" cx="208" cy="86" r="3"/><text class="wl" x="218" y="113">HTTP</text>
+<path class="w" d="M588 86V132" marker-end="url(#ah-w)"/><circle class="p" cx="588" cy="86" r="3"/><text class="wl" x="598" y="113">MCP</text>
+<path class="w" d="M588 216V238Q588 246 580 246H126Q118 246 118 254V292" marker-end="url(#ah-w)"/><circle class="p" cx="588" cy="216" r="3"/>
+<path class="w" d="M208 216V246"/><circle class="p" cx="208" cy="216" r="3"/><circle class="p" cx="208" cy="246" r="3"/>
+<path class="w" d="M179 325H197" marker-end="url(#ah-w)"/><circle class="p" cx="179" cy="325" r="3"/>
+<path class="w" d="M319 325H337" marker-end="url(#ah-w)"/><circle class="p" cx="319" cy="325" r="3"/>
+<path class="w" d="M459 325H477" marker-end="url(#ah-w)"/><circle class="p" cx="459" cy="325" r="3"/>
+<path class="w" d="M599 325H617" marker-end="url(#ah-w)"/><circle class="p" cx="599" cy="325" r="3"/>
+<path class="w" d="M678 358V448" marker-end="url(#ah-w)"/><circle class="p" cx="678" cy="358" r="3"/>
+<path class="w" d="M596 495H556" marker-end="url(#ah-w)"/><circle class="p" cx="596" cy="495" r="3"/>
+<path class="w" d="M316 495H276" marker-end="url(#ah-w)"/><circle class="p" cx="316" cy="495" r="3"/>
+<path class="w" d="M36 495H20Q12 495 12 487V52Q12 44 20 44H36" marker-end="url(#ah-w)"/><circle class="p" cx="36" cy="495" r="3"/>
+</svg>
